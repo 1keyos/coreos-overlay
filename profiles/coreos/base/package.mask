@@ -17,3 +17,8 @@
 
 # Prevent this from attempting to install along with GCC 7.
 =sys-devel/gcc-6.4.0-r1
+
+# Block Linux 4.16 to test 4.14.
+>=sys-kernel/coreos-kernel-4.15
+>=sys-kernel/coreos-modules-4.15
+>=sys-kernel/coreos-sources-4.15
